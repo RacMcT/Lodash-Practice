@@ -62,8 +62,29 @@ let reducedpeople = _.reduce(people, function (result, people) {
   return result;
 }, {});
 
+//************************************************************ */
+
+//_.without()
+//Creates an array excluding all given values using SameValueZero for equality comparisons.
+//Unlike _.pull, this method returns a new array.
+//_.without([2, 1, 2, 3], 1, 2);
+// => [3]
+
+//****************************************** */
+//_.shuffle()
+// creates an array of shuffled values from the given collection using a version of the Fisher-Yates shuffle algorithm.
+//Syntax:
+
+// _.shuffle( collection )
+// Parameters: This method accepts single parameter as mentioned above and described below:
+
+// collection: This parameter holds the collection to shuffle.
+// Return Value: This method is used to return the new shuffled array.
+//
+//
 
 
+//***************************************
 
 // Unit Tests:
 
