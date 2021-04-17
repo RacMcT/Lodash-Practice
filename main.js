@@ -1,3 +1,5 @@
+//npm init -- need to use for lodash to work in terminal??
+
 
 // Required: at least 5 functions for terminal and console.log() each result
 // Required methods: _.chunk(), _.reverse(), _.without(), _.shuffle().
@@ -20,6 +22,11 @@ var object = require('lodash/fp/object');
 // Cherry-pick methods for smaller browserify/rollup/webpack bundles.
 var at = require('lodash/at');
 var curryN = require('lodash/fp/curryN');
+
+//Calls on API for fake data:
+fetch('https://jsonplaceholder.typicode.com/todos')
+  .then(response => response.json())
+  .then(json => console.log(json))
 
 
 // Functions:
@@ -87,5 +94,11 @@ let reducedpeople = _.reduce(people, function (result, people) {
 //***************************************
 
 // Unit Tests:
+
+
+
+
+// CODE ALONG WITH YOUTUBE TUTORIAL- ON ZOLLEGE
+
 
 
