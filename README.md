@@ -14,3 +14,31 @@ Console.log the output of each lodash method called on the fake data.
 Use at least these methods: _.chunk(), _.reverse(), _.without(), _.shuffle().
 Create unit tests with Mocha for each function you build.
 TIP: use the data from day 11 for arrays and objects to tinker with. Or google fake data.
+
+# Lodash Practice
+
+Lodash Practice is a series of lodash functions that return results of manipulated arrays and data in the terminal.
+
+## Installation
+
+Using Node.JS in the terminal, use command: "npm i lodash" to use for lodash to work in terminal and to install Lodash library for node.js.
+Lodash documentation reference: https://lodash.com/
+
+## Usage
+
+```python
+import foobar
+
+foobar.pluralize('word') # returns 'words'
+foobar.pluralize('goose') # returns 'geese'
+foobar.singularize('phenomena') # returns 'phenomenon'
+```
+
+## Testing
+
+Unit tests are in the test.js folder in the test.js file
+Unit tests use mocha and chai
+
+## Lodash License
+
+[MIT](https://raw.githubusercontent.com/lodash/lodash/4.17.15-npm/LICENSE)
